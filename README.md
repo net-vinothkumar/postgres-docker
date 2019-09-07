@@ -1,4 +1,4 @@
-# Run postgres using docker :
+# Run postgres database using docker :
 How to run postgres using docker ? Demo
 
 Start a new container running PostgreSQL
