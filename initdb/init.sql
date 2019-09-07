@@ -1,4 +1,4 @@
-CREATE DATABASE sampledb
+CREATE DATABASE interviewdot
     WITH 
     OWNER = postgres
     ENCODING = 'UTF8'
