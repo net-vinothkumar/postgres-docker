@@ -6,6 +6,9 @@ How to run postgres using docker ? Demo
 
 Demo :
 
+Step 1 :
+Start the postgres database using docker :
+
 ```
 $ docker-compose -f postgres.yaml up
 Pulling postgres (postgres:10.3-alpine)...
@@ -79,9 +82,11 @@ postgres    | 2019-09-05 17:37:17.676 UTC [1] LOG:  listening on IPv6 address ":
 postgres    | 2019-09-05 17:37:17.680 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
 postgres    | 2019-09-05 17:37:17.692 UTC [47] LOG:  database system was shut down at 2019-09-05 17:37:17 UTC
 postgres    | 2019-09-05 17:37:17.695 UTC [1] LOG:  database system is ready to accept connections
+```
+Step 2 : 
+Start the pgadmin - postgres client :
 
-
-
+```
 $ docker-compose -f pgadmin.yaml up
 WARNING: Found orphan containers (postgres) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
 Pulling pgadmin (dpage/pgadmin4:)...
