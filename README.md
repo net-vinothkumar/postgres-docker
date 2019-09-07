@@ -1,6 +1,9 @@
 # postgres-docker
 How to run postgres using docker ? Demo
 
+Start a new container running PostgreSQL
+We'll use docker run to start a new container from the official postgres image with the name postgres and exposing port 5432 (the PostgreSQL default).
+
 <img width="1300" alt="Screen Shot 2019-09-07 at 09 08 01" src="https://user-images.githubusercontent.com/30971809/64471267-b6bd6d80-d14f-11e9-9ed3-bf6132c5cf97.png">
 
 
@@ -137,3 +140,7 @@ pgadmin_1  | [2019-09-05 17:39:39 +0000] [1] [INFO] Listening at: http://[::]:80
 pgadmin_1  | [2019-09-05 17:39:39 +0000] [1] [INFO] Using worker: threads
 pgadmin_1  | [2019-09-05 17:39:39 +0000] [80] [INFO] Booting worker with pid: 80
 ```
+
+# #CREATE TABLE interview_questions (id int, questions varchar(255));
+# #INSERT INTO interview_questions (id,name) VALUES (1, 'What is JVM');
+# #select * from interview_questions;
