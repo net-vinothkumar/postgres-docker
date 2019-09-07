@@ -142,5 +142,5 @@ pgadmin_1  | [2019-09-05 17:39:39 +0000] [80] [INFO] Booting worker with pid: 80
 ```
 
 # #CREATE TABLE interview_questions (id int, questions varchar(255));
-# #INSERT INTO interview_questions (id,name) VALUES (1, 'What is JVM');
+# #INSERT INTO interview_questions (id,questions) VALUES (1, 'What is JVM');
 # #select * from interview_questions;
